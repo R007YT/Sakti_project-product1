@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo</title>
+    <link rel="stylesheet" href="styleproduct.css">
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <div class="gallery">
+                <img src="images/N1.jpg" alt="N1" id="productImg">
+                <div class="controls">
+                    <span class="btn active"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+            </div>
+            <div class="details">
+                <h1>Nintendo Switch</h1>
+                <h2>Rp 8̶,̶0̶0̶0̶,̶0̶0̶0̶                                                                                   80,000</h2>
+                <h3>99% Discount</h3>
+                <p>Nintendo Switch is a multi mode Console made by Nintendo  </p>
+                <form>
+                    <div class="option">
+                        <p>Option:</p>
+                        <label for="disc-edition">
+                            <input type="checkbox" name="option" id="disc-edition">
+                            <span>Nintendo Switch OLED</span>
+                        </label>
+                        <label for="disc-marvel">
+                            <input type="checkbox" name="option" id="disc-marvel">
+                            <span>Nintendo Switch Classic</span>
+                        </label>
+                        <label for="disc-digital">
+                            <input type="checkbox" name="option" id="disc-digital">
+                            <span>Nintendo Switch Lite</span>
+                        </label>
+                    </div>
+
+                    <div class="color">
+                        <p>color</p>
+                        <label for="white">
+                            <input type="radio" name="color" id="white" data-image="images/N1.png">
+                            <span class="color-1"></span>
+                        </label>
+                        <label for="red">
+                            <input type="radio" name="color" id="red" data-image="images/aaaaaa.jpg">
+                            <span class="color-2"></span>
+                        </label>
+                        <label for="blue">
+                            <input type="radio" name="color" id="blue" data-image="images/N3.jpg">
+                            <span class="color-3"></span>
+                        </label>
+                    </div>
+                    <div class="quantity">
+                        <p>Quantity</p>
+                        <input type="number" id="quantityinput" value="1" min="1">
+                        <p id="stockinfo"></p>
+                    </div>
+                    <a href="#"><button type="button" id="buybutton">Add to Cart</button></a>                        
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scriptproduct.js"></script>
+</body>
+</html>
